@@ -1,0 +1,13 @@
+#simple caluclator
+num1=int(input("Enter the number1:"))
+num2=int(input("Enter the number2:"))
+operator=input()
+if operator =="+":
+    print("The addition of sum is:",num1+num2)
+elif operator =="-":
+    print("THe subraticon of sum is:",num1-num2)
+elif operator=="*":
+   print("the multipication of sum is:",num1*num2)
+else:
+    print ("The divison of sum is:",num1/num2)
+   
